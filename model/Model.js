@@ -85,4 +85,7 @@ module.exports = class Model {
         }
     }
 
+    searchDateFromDate(date) {
+        return this.dates.filter(actualDate => actualDate.getDateTime() !== date).map(actualDate => actualDate.getDateName());
+    }
 };

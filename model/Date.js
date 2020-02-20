@@ -7,6 +7,12 @@ module.exports = class Date {
         this.date_id = date_id;
         this.contact = contact;
     }
+    getDateName() {
+        return this.name;
+    }
+    getDateTime() {
+        return this.date;
+    }
     getDate() {
         return `Cita: ${this.name}, Lugar: ${this.place}, Fecha: ${this.date}, Con: ${this.contact}, ID: ${this.date_id}`;
     }
