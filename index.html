@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+<div class="container w-25 mt-5">
+    <ul class="nav nav-tabs mb-3">
+        <li class="nav-item">
+            <a class="nav-link active" href="#" id="switch__contacts">Contactos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" id="switch__dates">Citas</a>
+        </li>
+    </ul>
+    <div class="contacts-container container">
+        <input type="button" class="btn btn-info btn-block" value="Agregar contacto" onclick="addContact()">
+        <input type="button" class="btn btn-info btn-block" value="Buscar contacto" oncancel="searchContact()">
+        <input type="button" class="btn btn-info btn-block" value="Modificar contacto">
+        <input type="button" class="btn btn-info btn-block" value="Eliminar contacto">
+    </div>
+    <div class="citas-container container d-none">
+        <input type="button" class="btn btn-info btn-block" value="Agregar cita">
+        <input type="button" class="btn btn-info btn-block" value="Buscar cita">
+        <input type="button" class="btn btn-info btn-block" value="Modificar cita">
+        <input type="button" class="btn btn-info btn-block" value="Eliminar cita">
+    </div>
+
+</div>
+<script src="js/index.js" type="text/javascript"></script>
+</body>
+</html>

@@ -13,6 +13,15 @@ module.exports = class Model {
     searchContactById(contact_id) {
         return this.contacts.findIndex(contact => contact_id === contact.contact_id);
     }
+    searchDatesByContactId(contact_id) {
+        let list = [];
+        this.dates.forEach(date => {
+            if(date.contact_id === contact_id) {
+                list.push(contact_id);
+            }
+        });
+        return list;
+    }
     addContact(contact_id, name, phone) {
         if(this.searchContactById(contact_id) === -1) {
             const newContact = new Contact(contact_id, name, phone);
@@ -40,6 +49,8 @@ module.exports = class Model {
     deleteContact(contact_id) {
         if(this.searchContactById(contact_id) !== -1) {
             this.contacts = this.contacts.filter(contact => contact.contact_id !== contact_id);
+            const includesId = this.searchDatesByContactId(contact_id);
+            this.dates = this.dates.filter(date => date.contact_id !== includesId.includes(date.contact_id));
             return true;
         } else {
             return false;

@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="291daa66-dfa5-42dc-a3b2-294e2b381c64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/controller/Controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/view/view.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Date.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/Date.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/Model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/model/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Date.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/model/Date.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/model/Model.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,26 +29,22 @@
   </component>
   <component name="ProjectId" id="1Y5QTGNYbIq6IvpR5O77lGLOQ4j" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Proyectos/mope-it" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\oscmc\OneDrive - Universidad de Guanajuato\8vo semestre\Sistemas de información\mvc_agenda\js" />
       <recent name="C:\Users\oscmc\OneDrive - Universidad de Guanajuato\8vo semestre\Sistemas de información\mvc_agenda\model" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -57,7 +56,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582229981488</updated>
-      <workItem from="1582229982696" duration="5032000" />
+      <workItem from="1582229982696" duration="5442000" />
+      <workItem from="1582236617645" duration="58000" />
+      <workItem from="1582575398469" duration="5444000" />
+      <workItem from="1582838995885" duration="1331000" />
+      <workItem from="1583180480910" duration="3267000" />
     </task>
     <servers />
   </component>
@@ -69,10 +72,18 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1583182940927">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583182940927" />
   </component>
 </project>
